@@ -1,6 +1,6 @@
 const express = require("express");
 const path = require("path");
-const uuid = require("./uuid");
+const uuid = require("./uuid"); //assign random ID to user.
 const fs = require("fs");
 const app = express();
 const PORT = process.env.PORT || 3001; //using heroku port found in documentation.
